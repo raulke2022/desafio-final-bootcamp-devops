@@ -8,12 +8,11 @@ Despliegue de una aplicación Django y React.js Elaborar el deployment dockeriza
 
 Se deben entregar los Dockerfiles pertinentes para elaborar el despliegue y justificar la forma en la que elabora el deployment (supervisor, scripts, docker-compose, kubernetes, etc)
 
-
 Subir todo lo elaborado a un repositorio github. En el repositorio se debe incluir el código de la aplicación y un archivo README.md con instrucciones detalladas para compilar y desplegar la aplicación, tanto en una PC local como en la nube (AWS o GCP).
 
 Se necesita:
 
-1. Armar un diagrama de los componentes que se involucran (Base de datos, deployments, etc) como si estuviera deployado en AWS.
+- Armar un diagrama de los componentes que se involucran (Base de datos, deployments, etc) como si estuviera deployado en AWS.
 
 - Dockerizar las aplicaciones Frontend y Backend
 
@@ -22,6 +21,8 @@ Se necesita:
 - Armar los manifiestos de Kubernetes para deployar las aplicaciones y sus dependencias en un cluster (Utilizar minikube ó k3 cluster ò microk8s como ref)
 
 - Diseñar un pipeline de CI/CD de la aplicación frontend y backend que nos permita deployar en 2 entornos (dev y prod), pueden usar github action ó Jenkins
+
+- Compartir Repositorio Github con la solucion
 
 
 ⌨️ con ❤️ por [roxsross](https://github.com/roxsross) 😊
